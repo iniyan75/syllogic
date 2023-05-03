@@ -1,0 +1,55 @@
+.paper{
+    text-align: left;
+    background-color: black;
+    color: white;
+    background-size: 1920px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.7px;
+    height: 100vh;
+}
+a {
+    text-decoration: none;
+}
+.container-main {
+    padding-top: 40px;
+    font-size: 18px;
+}
+
+.hh,.hhh{
+    background: linear-gradient(to right, rgb(255, 189, 74), rgb(250, 230, 80));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+#reg{
+   text-align: center;
+}
+#bb {
+    margin-top: 20px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+    color: #313133;
+    background: rgb(254, 194, 92);
+    background: linear-gradient(to right, rgb(255, 189, 74), rgb(250, 230, 80));
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 24px rgb(255, 189, 74);
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    padding: 10px;
+    height: fit-content;
+    width: fit-content;
+}
+
+@media(max-width:767px){
+    .paper{
+        height: 117vh;
+    }
+    .hhh{
+        display: none;
+    }
+}

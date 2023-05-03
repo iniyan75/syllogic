@@ -1,0 +1,580 @@
+.mainpage {
+  font-size: 12px;
+}
+.d-flex{
+  margin: 1%;
+}
+.page1 {
+  height:100vh;
+}
+
+.chemlogo,
+.logo1 {
+  width: 5%;
+  height: 4%;
+}
+
+.navbrand1 {
+  text-transform: uppercase;
+  background: linear-gradient(to right, rgb(255, 189, 74), rgb(250, 230, 80));
+  background-size: 50% auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-family: 'Poppins', sans-serif;
+  font-size: 250%;
+  font-weight: bolder;
+  align-self: center;
+  margin-top: 2.5px;
+}
+
+.reg{
+  background-color: rgba(0, 0, 0, 0.833);
+  padding: 3.5vw;
+  text-align: center;
+  color: #fff;
+  line-height: 32px;
+  border-radius:20px;
+}
+.regp{
+  background-color: rgba(0, 0, 0, 0.833);
+  padding:3px;
+  text-align: center;
+  color: #fff;
+  line-height: 32px;
+  border-radius:20px;
+}
+.details{
+  margin: 1% 2% 2% 2%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(129px, auto);
+  grid-gap: 10px;
+  font-family: 'Domine', serif;
+ 
+}
+.det
+{
+  margin-top: 2%;
+}
+.bot{
+  margin-bottom: 2%;
+}
+.bot1{
+  margin-top: 0%;
+}
+.payment{
+  width:180px;
+  height: 180px;
+}
+.paydetails{
+  text-align: start;
+  font-size: 13px;
+}
+@media screen and (max-width:768px) {
+  .details{
+      grid-template-columns: repeat(2, 1fr);
+      font-size: medium;
+      grid-gap: 20px;
+      height: fit-content;
+  }
+.det
+{
+  margin-top: 5%;
+}
+
+}
+
+@media screen and (max-width:420px) {
+  .details{
+      grid-template-columns: repeat(1, 1fr);
+      font-size: medium;
+      grid-gap: 20px;
+      height: fit-content;
+  }
+  .reg{
+    margin-top: 5%;
+  }
+  .payment{
+    width:125px;
+    height: 120px;
+    margin-top: 60%;
+  }
+}
+
+.heading{
+  text-transform: uppercase;
+  background: linear-gradient(to right, rgb(255, 189, 74), rgb(250, 230, 80));
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+}
+.para{
+font-size:18px;
+letter-spacing: 0.5px;
+word-spacing: 2px;
+text-align: justify;
+font-family: 'El Messiri', sans-serif;
+}
+
+button.slick-arrowslick-next
+{
+  display: none;
+}
+
+.kecname {
+  background: linear-gradient(to right, rgb(255, 189, 74), rgb(250, 230, 80));
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: bolder;
+  padding: 2%;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 19.5px;
+  text-align: center;
+  line-height: 1.3;
+}
+
+.cname {
+  font-size: 50px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  text-align: center;
+  padding: 0%;
+  margin-right: 5%;
+}
+
+.ilogo {
+  width: 4%;
+  height: auto;
+  padding: 0%;
+  margin-right: 2%;
+}
+
+
+.chemname {
+  line-height: 1;
+  margin-top: -1.5%;
+}
+
+
+.chemdep {
+  background: linear-gradient(to right, rgb(255, 189, 74), rgb(250, 230, 80));
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  justify-content: center;
+}
+
+.chass {
+  background: linear-gradient(to right, rgb(255, 189, 74), rgb(250, 230, 80));
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+h3.bot,.bot1,.det{
+  background: linear-gradient(to right, rgb(255, 189, 74), rgb(250, 230, 80));
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+
+}
+.postcard__preview-txt
+{
+  font-family: 'Roboto Slab', serif;
+  font-size:18px;
+  letter-spacing: 2px
+}
+
+.row {
+  margin: 0;
+}
+
+.scrolldown {
+  --color: rgb(250, 202, 12);
+  --sizeX: 30px;
+  --sizeY: 50px;
+  position: relative;
+  width: var(--sizeX);
+  height: var(--sizeY);
+  margin-left: var(sizeX / 2);
+  border: calc(var(--sizeX) / 10) solid var(--color);
+  border-radius: 50px;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+  margin-top: 2%;
+  margin-left: 50%;
+}
+
+.scrolldown::before {
+  content: "";
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  width: 6px;
+  height: 6px;
+  margin-left: -3px;
+  background-color: var(--color);
+  border-radius: 100%;
+  animation: scrolldown-anim 1.5s infinite;
+  box-sizing: border-box;
+  box-shadow: 0px -5px 3px 1px #ffffff66;
+}
+
+@keyframes scrolldown-anim {
+  0% {
+    opacity: 0;
+    height: 6px;
+  }
+
+  40% {
+    opacity: 1;
+    height: 10px;
+  }
+
+  80% {
+    transform: translate(0, 20px);
+    height: 10px;
+    opacity: 0;
+  }
+
+  100% {
+    height: 3px;
+    opacity: 0;
+  }
+}
+
+.chevrons {
+  padding: 6px 0 0 0;
+  margin-left: -3px;
+  margin-top: 48px;
+  width: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chevrondown {
+  margin-top: -6px;
+  position: relative;
+  border: solid var(--color);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  transform: rotate(45deg);
+}
+
+.chevrondown:nth-child(odd) {
+  animation: pulse 500ms ease infinite alternate;
+}
+
+.chevrondown:nth-child(even) {
+  animation: pulse 500ms ease infinite alternate 250ms;
+}
+
+@keyframes pulse {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 0.5;
+  }
+}
+
+
+.events {
+  height: max-content;
+
+}
+.contact{
+  height:max-content;
+ margin-top: 3%;
+ margin-bottom: 3%;
+ padding: 5%;
+  
+}
+.frame{
+  height: 400px;
+  width: 500px;
+  border-radius: 15px;
+  
+}
+.contact{
+  height:max-content;
+ margin-top: 3%;
+ margin-bottom: 3%;
+ padding: 5%;
+  
+}
+.frame{
+  height: 400px;
+  width: 500px;
+  border-radius: 15px;
+  
+}
+.framev{
+  height: 500px;
+  border-radius: 15px;
+}
+
+.clg1 {
+  background: linear-gradient(to right, rgb(255, 189, 74), rgb(250, 230, 80));
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-family: 'Roboto Slab', serif;
+}
+.clgcont {
+  background: linear-gradient(to right, rgb(255, 189, 74), rgb(250, 230, 80));
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+   font-size: 30px;
+   margin-bottom: 50px;
+   font-family: 'Roboto Slab', serif;
+}
+.clgcont1{
+  font-style: italic;
+  font-family: 'Roboto Slab', serif;
+}
+.coname{
+  font-size: 15px;
+  font-family: 'Roboto Slab', serif;
+}
+
+.staffs{
+  height: 140px;
+  width: 140px;
+  border-radius: 100px;
+}
+
+
+.back{
+  position: fixed-bottom;
+}
+.socialimg{
+  height: 45px;
+  width: 50px;
+ 
+  
+}
+.social1img{
+  height: 50px;
+  width: 50px;
+}
+.video{
+
+  width: 100%;
+
+  padding: 5%;
+
+}
+  
+
+.social{
+  padding-left: 5%;
+}
+
+.social1t{
+  padding-right: 5%;
+
+}
+.conus{
+ font-size: 1px;
+
+
+}
+
+
+
+
+
+
+
+
+
+/* media query*/
+@media screen and (max-width: 600px) {
+  .d-flex{
+    justify-content: center;
+  }
+  div.kecname {
+    font-size: 12px;
+    margin-top: 12%;
+  }
+
+  div.chemname,
+  .chass,
+  .chemdep,
+  .present {
+    font-size: 17px;
+    letter-spacing: normal;
+
+
+    
+  }
+
+  h5.chemdep {
+    font-size: 28px;
+    letter-spacing: normal;
+    margin-right: 20%;
+    margin-left: -20%;
+    padding: 0%;
+  }
+
+  div.cname {
+    font-size: 33px;
+    letter-spacing: normal;
+  }
+
+  img.ilogo {
+    width: 7%;
+    height: auto;
+  }
+
+  img.chemlogo,
+  .logo1 {
+    width: 7%;
+    margin-top: 1.5%;
+  }
+
+  div.row.rank {
+    line-height: 1;
+  }
+  .para{
+    font-size: 16px;
+  }
+
+  div.scrolldown {
+    display: none;
+  }
+
+  div.page1 {
+    height: 120dvh;
+  }
+
+  div.events {
+    height: auto;
+  }
+  .frame{
+    height: 300px;
+    width: 300px;
+  }
+  .social{
+    height: 15px;
+    width: 15px;
+    font-size: 10px;
+    
+  }
+  .social1{
+    height: 15px;
+    width: 15px;
+    font-size: 10px;
+    
+  }
+  .clgcont{
+    font-size: 18px;
+  }
+  .clgcont1{
+    font-style: italic;
+    font-size: 15px;
+  }
+  .coname{
+    font-size: 10px;
+  }
+  .framev{
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+  }
+  
+  
+}
+
+.ab1{
+  padding: 0%;
+}
+
+/* back */
+
+.noselect {
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+		-webkit-tap-highlight-color: transparent;
+}
+
+button {
+	width: 75px;
+	height: 75px;
+	cursor: pointer;
+	background-color: gold;
+	background-image: linear-gradient(to right, rgb(244, 173, 50), rgb(55, 54, 54));
+	border: none;
+	border-radius: 50%;
+	transition: 200ms;
+}
+
+button svg {
+	fill: white;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+button:before {
+	
+	position: absolute;
+	transform: translateX(-50%) translateY(45px);
+	font-size: 15px;
+	transition: 200ms;
+	color: transparent;
+	font-weight: bold;
+}
+
+button:hover {
+	box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+	width: 80px;
+	height: 80px;
+}
+
+button:hover::before {
+	color: #fff;
+}
+
+button:hover svg {
+		animation: bounce 2s infinite linear;
+}
+
+@keyframes bounce {
+	0% {transform: translateX(-50%) translateY(-50%)}
+	25% {transform: translateX(-50%) translateY(-65%)}
+	50% {transform: translateX(-50%) translateY(-50%)}
+	75% {transform: translateX(-50%) translateY(-35%)}
+	100% {transform: translateX(-50%) translateY(-50%)}
+}
+
+button:focus {
+	outline: none;
+}
